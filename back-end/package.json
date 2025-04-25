@@ -1,0 +1,30 @@
+{
+    "name": "ad_login_auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write .",
+        "start:dev": "nodemon src/server.js "
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.5.0",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2",
+        "ldapjs": "^3.0.7",
+        "nodemon": "^3.1.9",
+        "prettierrc": "^0.0.0-5"
+    },
+    "type": "module",
+    "devDependencies": {
+        "@eslint/js": "^9.25.1",
+        "eslint": "^9.25.1",
+        "globals": "^16.0.0",
+        "prettier": "^3.5.3"
+    }
+}
